@@ -148,9 +148,7 @@ playAgainButton.addEventListener("click", function() {
     remainingGuessesSpan.innerText = `${remainingGuesses} guesses`;
     guessedLettersElement.innerHTML = "";
     message.innerText = "";
-
     getWord();
-
     guessLetterButton.classList.remove("hide");
     playAgainButton.classList.add("hide");
     remainingGuessesElement.classList.remove("hide");
